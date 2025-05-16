@@ -1,0 +1,80 @@
+body {
+    background-color: #f4f4f4;
+  }
+
+  .login-box {
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .login-logo a {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .login-card-body {
+    padding: 20px;
+  }
+
+  .login-box-msg {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* Style for form elements */
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .input-group-text {
+    background-color: #fff;
+  }
+
+  .form-control {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 45px;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    border-radius: 3px;
+    color: #fff;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border: 1px solid #0056b3;
+  }
+
+  /* Optional: Style for error messages or other messages */
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+  }
+
+  .success-message {
+    color: #28a745;
+    font-size: 14px;
+  }
+
+  .lock, .envelope{
+    color: #007BFF; /* Set the icon color */
+    }
+    
+
+
+    .custom-swal {
+        width: 300px; /* Adjust the width as needed */
+        height: auto; /* You can control the height as well */
+    }
+    
